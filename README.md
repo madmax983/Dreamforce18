@@ -1,6 +1,6 @@
 
-# SmartSyncExplorerReactNative
-SmartSyncExplorer application written using React Native 
+#Dreamforce 18
+Dreamforce 18 example code, including modified SmartSyncExplorer application written using React Native 
 
 ## To get started do the following from this directory
 ``` shell
