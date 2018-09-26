@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "#86939e",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "marginBottom": 1,
+              "marginLeft": 20,
+              "marginRight": 20,
+              "marginTop": 15,
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    />
+  </View>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "borderBottomColor": "#bdc6cf",
+        "borderBottomWidth": 1,
+        "marginLeft": 20,
+        "marginRight": 20,
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={undefined}
+      style={
+        Array [
+          Object {
+            "color": "#86939e",
+            "minHeight": 36,
+            "width": 750,
+          },
+          Object {
+            "fontSize": 17.5,
+          },
+          undefined,
+        ]
+      }
+      value={undefined}
+    />
+  </View>
+</View>
+`;
