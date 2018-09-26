@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "start": "node node_modules/react-native/local-cli/cli.js start",
-        "test": "jest"
+        "test": "jest",
+        "override": "jest -u"
     },
     "sdkDependencies": {
         "salesforcemobilesdk-ios": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS.git#v6.2.0",

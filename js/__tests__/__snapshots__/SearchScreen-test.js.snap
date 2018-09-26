@@ -49,7 +49,9 @@ exports[`renders correctly 1`] = `
           false,
           undefined,
           undefined,
-          false,
+          Object {
+            "paddingRight": 30,
+          },
         ]
       }
       underlineColorAndroid="transparent"
@@ -86,6 +88,24 @@ exports[`renders correctly 1`] = `
     >
       
     </Text>
+    <ActivityIndicator
+      animating={true}
+      color="#86939e"
+      hidesWhenStopped={true}
+      size="small"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "position": "absolute",
+            "right": 16,
+            "top": 13,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    />
   </View>
   <RCTScrollView
     automaticallyAdjustContentInsets={false}

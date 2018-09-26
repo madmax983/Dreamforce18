@@ -574,134 +574,59 @@ exports[`renders correctly 1`] = `
         }
       >
         <View
-          style={
+          accessibilityComponentType="button"
+          accessibilityLabel={undefined}
+          accessibilityTraits={
             Array [
-              Object {
-                "marginLeft": 15,
-                "marginRight": 15,
-              },
-              undefined,
-              undefined,
-              undefined,
+              "button",
             ]
           }
+          accessible={true}
+          collapsable={undefined}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
           <View
-            accessibilityComponentType={undefined}
-            accessibilityLabel={undefined}
-            accessibilityTraits={undefined}
-            accessible={true}
-            hasTVPreferredFocus={undefined}
-            hitSlop={undefined}
-            isTVSelectable={true}
-            nativeID={undefined}
-            onLayout={undefined}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={null}
-            testID={undefined}
-            tvParallaxProperties={undefined}
+            style={
+              Array [
+                Object {},
+              ]
+            }
           >
-            <View
-              pointerEvents="box-only"
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={undefined}
+              ellipsizeMode="tail"
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#9E9E9E",
-                    "flexDirection": "row",
-                    "justifyContent": "center",
-                    "padding": 19,
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
                   },
-                  undefined,
-                  undefined,
-                  undefined,
-                  undefined,
-                  undefined,
-                  Object {
-                    "backgroundColor": "red",
-                  },
-                  undefined,
-                  Object {
-                    "padding": 12,
-                  },
-                  undefined,
-                  undefined,
-                  undefined,
-                  undefined,
-                  undefined,
-                  undefined,
                 ]
               }
             >
-              <Text
-                accessible={true}
-                allowFontScaling={false}
-                ellipsizeMode="tail"
-                style={
-                  Array [
-                    Object {
-                      "color": "white",
-                      "fontSize": 18,
-                    },
-                    Array [
-                      Object {
-                        "marginRight": 10,
-                      },
-                      undefined,
-                    ],
-                    Object {
-                      "fontFamily": "Material Design Icons",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                  ]
-                }
-                type="material-community"
-              >
-                
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
-                style={
-                  Array [
-                    Object {},
-                    undefined,
-                    undefined,
-                    undefined,
-                    undefined,
-                    undefined,
-                    undefined,
-                    undefined,
-                    undefined,
-                    undefined,
-                    Array [
-                      Object {
-                        "color": "white",
-                        "fontSize": 20,
-                      },
-                      undefined,
-                      Object {
-                        "fontSize": 17.5,
-                      },
-                      undefined,
-                      undefined,
-                      undefined,
-                      undefined,
-                      undefined,
-                    ],
-                  ]
-                }
-              >
-                Delete
-              </Text>
-            </View>
+              Delete
+            </Text>
           </View>
         </View>
       </View>
