@@ -5,7 +5,11 @@ import HelloProps from './HelloProps'
 class HelloWorld extends React.Component {
     render() {
         return (
-            <HelloProps name="Dreamforce!"/>
+            <View>
+                <Text>
+                    Hello World!
+                </Text>
+            </View>
         );
     }
 }
