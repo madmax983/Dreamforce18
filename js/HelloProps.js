@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text} from 'react-native'
+import {View, Text, StyleSheet} from 'react-native'
 
 class HelloProps extends React.Component {
     render() {
@@ -12,5 +12,14 @@ class HelloProps extends React.Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    backgroundContainer: {
+        backgroundColor: "blue",
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center"
+    }
+})
 
 export default HelloProps

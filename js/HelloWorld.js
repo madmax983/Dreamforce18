@@ -14,13 +14,4 @@ class HelloWorld extends React.Component {
     }
 }
 
-const styles = StyleSheet.create({
-    backgroundContainer: {
-        backgroundColor: "blue",
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center"
-    }
-})
-
 export default HelloWorld
